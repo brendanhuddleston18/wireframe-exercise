@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 30px;
 }
 
 .rowOne ul{
@@ -11,7 +11,8 @@
   padding: 24px;
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
   align-items: center;
 }
 
@@ -22,10 +23,35 @@
 
 .rowThree {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
+  justify-content: center;
 }
 
 .rowFour {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap:30px;
+}
+
+.columnOne {
+  width: 480px;
+  height: 400px;
+}
+
+.columnOne p {
+  height: 360px;
+  overflow: auto;
+}
+
+footer {
+  background-color: grey;
+  height: 120px;
+}
+
+button {
+  background-color: #111;
+  color: #eee;
+  height: 40px;
+  width: 360px;
+  border-radius: 10px;
 }

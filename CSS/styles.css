@@ -5,13 +5,19 @@
   gap: 30px;
 }
 
-.rowOne ul{
+.rowOne {
+  display: flex;
   background-color: grey;
   color: #eee;
-  padding: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.listContainer {
+  width: 960px;
+  padding: 24px 0;
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   align-items: center;
 }
@@ -34,12 +40,15 @@
 }
 
 .columnOne {
+  display: flex;
+  flex-direction: column;
   width: 480px;
   height: 400px;
+  gap: 10px;
 }
 
 .columnOne p {
-  height: 360px;
+  height: 350px;
   overflow: auto;
 }
 

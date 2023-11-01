@@ -1,0 +1,31 @@
+#fullThing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.rowOne ul{
+  background-color: grey;
+  color: #eee;
+  padding: 24px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rowTwo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rowThree {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rowFour {
+  display: flex;
+  justify-content: space-around;
+}
